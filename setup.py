@@ -115,7 +115,8 @@ if __name__ == "__main__":
             "deprecated",
             "pyjwt",
             "requests>=2.14.0",
-            "six"
+            "six",
+            "wheel"
         ],
         extras_require={
             "integrations": ["cryptography"]
